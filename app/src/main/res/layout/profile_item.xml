@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@color/content_box">
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/profile_icon"
+        android:src="@android:drawable/ic_menu_info_details" />
+
+    <Space
+        android:layout_width="32dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/profile_property"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/content_text"
+        android:text="Alias"
+        android:textSize="16dp" />
+
+    <Space
+        android:layout_width="32dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/profile_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/content_text"
+        android:text="Naton"
+        android:textSize="16dp" />
+</LinearLayout>
